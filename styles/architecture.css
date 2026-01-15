@@ -18,18 +18,34 @@
 /* dark-3 */
 .text-light-gray{
     color: #727272;
+    font-size: 16px;
+    line-height: 28px;
 }
 nav , .banner{
     border: 2px solid red;
     max-width: 1240px;
     margin: 0px auto;
 }
+.btn{
+    background-color: #FF900E;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+}
 
 /* header */
+.brand{
+    font-size: 40px;
+    font-weight: bold;
+
+}
 
 /* nav-bar-related style */
 nav{
     justify-content: space-between;
+    align-items: center;
 }
 .nav-item{
     list-style: none;
@@ -39,4 +55,27 @@ nav{
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
+}
+/* banner */
+.banner{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.banner-description{
+    max-width: 800px;
+    padding: 30px;
+
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: auto;
+}
+img{
+    width: 100%;
 }
