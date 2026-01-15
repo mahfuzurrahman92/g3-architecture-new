@@ -1,4 +1,6 @@
-
+/* *{
+    margin: 0px;
+} */
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -36,9 +38,13 @@ nav , .banner{
 }
 
 /* header */
+header{
+    padding: 20px;
+}
 .brand{
     font-size: 40px;
     font-weight: bold;
+
 
 }
 
@@ -63,6 +69,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
     
 }
@@ -78,4 +85,20 @@ nav{
 }
 img{
     width: 100%;
+}
+
+
+/* responsive */
+@media screen and (max-width: 576px) {
+     nav{
+        flex-wrap: wrap;
+    }
+
+    .brand{
+        margin-right: 30px;
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        
+    }
 }
